@@ -7,5 +7,3 @@ command, by using highly sophistocated programming tecniques to
 link multiple train cars together and populating them with folder
 names.  In addition a railway name has also been added to more easily
 identify the railcars.
-
-The origional program was written by Toyoda Masashi.
