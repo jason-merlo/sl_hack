@@ -3,9 +3,11 @@
  *        Copyright 1993,1998,2014
  *                  Toyoda Masashi
  *                  (mtoyoda@acm.org)
- *        Last Modified: 2014/06/03
+ *        Last Modified: 2015/02/28
  *========================================
  */
+/* sl unofficial_version 6.00 : Added file display                           */
+/*                                              by Jason Merlo    2015/02/28 */
 /* sl version 5.02 : Fix compiler warnings.                                  */
 /*                                              by Jeff Schwab    2014/06/03 */
 /* sl version 5.01 : removed cursor and handling of IO                       */
