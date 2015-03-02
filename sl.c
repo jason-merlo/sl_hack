@@ -149,7 +149,7 @@ int main(int argc, char *argv[])
         }
         getch();
         refresh();
-        usleep(30000);
+        usleep(40000);
     }
     mvcur(0, COLS - 1, LINES - 1, 0);
     endwin();
