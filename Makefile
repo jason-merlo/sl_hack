@@ -7,7 +7,7 @@
 #==========================================
 
 CC=gcc
-CFLAGS=-O
+CFLAGS=-O -std=c99
 
 sl: sl.c sl.h
-	$(CC) $(CFLAGS) -o sl sl.c -lncurses
+	$(CC) $(CFLAGS) -o sl sl.c -lncurses -lm
