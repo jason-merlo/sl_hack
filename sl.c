@@ -147,6 +147,12 @@ int main(int argc, char *argv[])
             }
             if (add_cab(x + D51LENGTH + numcars * CARLENGTH, y) == ERR) break;
         }
+
+        if (x / 20 % 2 == 0)
+          printf("\033]0; 🔴 X ⚫ \007");
+        else
+          printf("\033]0; ⚫ X 🔴 \007");
+
         getch();
         refresh();
         usleep(40000);
